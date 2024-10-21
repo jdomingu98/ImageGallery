@@ -1,0 +1,20 @@
+#gallery {
+    position: relative;
+    width: 100%;
+    background: #f0f0f0;
+}
+
+.masonry-item {
+    position: absolute;
+    width: 30%; /* Cambia el porcentaje según el número de columnas que desees */
+    margin-bottom: 10px;
+    transition: transform 0.2s ease;
+    border-radius: 5px;
+    object-fit: cover;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.masonry-item:hover {
+    transform: scale(1.03);
+}
