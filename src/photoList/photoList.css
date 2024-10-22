@@ -1,3 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 10px;
+    gap: 15px;
+    background: #333;
+    color: #f0f0f0;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
 #gallery {
     position: relative;
     width: 100%;
@@ -12,7 +39,7 @@
     border-radius: 5px;
     object-fit: cover;
     cursor: pointer;
-    padding: 5px;
+    padding: 15px 5px;
 }
 
 .masonry-item:hover {
