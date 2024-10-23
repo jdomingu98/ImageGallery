@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./account.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <title>Image Gallery</title>
+</head>
+<body>
+    <section class="search">
+        <img src="/src/images/header.jpg" alt="header bg" />
+        <div class="content">
+            <h1>Image Gallery with Javascript</h1>
+            <p>Search and add to favourites any image within a second</p>
+            <div class="search-box">
+                <i id="search-icon" class='uil uil-search'></i>
+                <input type="search" id="search-input" placeholder="Search images">
+            </div>
+            <div class="button-container">
+                <button id="favourites" class="btn">Favourites</button>
+                <button id="logout" class="btn">Logout</button>
+            </div>
+        </div>
+    </section>
+    <div id="gallery"></div>
+    <script src="./account.ts" type="module"></script>
+</body>
+</html>
